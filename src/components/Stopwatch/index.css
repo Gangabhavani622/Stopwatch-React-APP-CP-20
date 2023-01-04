@@ -1,0 +1,64 @@
+/* Write CSS here */
+
+.app-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.timer-cont {
+  background-color: #ffffff;
+  height: 50%;
+  width: 50%;
+  padding: 4px;
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  max-height: 40%;
+}
+
+.button-cont {
+  display: flex;
+  flex-direction: row;
+
+  padding: 4px;
+}
+.time {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.start {
+  background-color: #1db05f;
+  color: #ffffff;
+  padding: 3px;
+  border-style: none;
+  margin-right: 4px;
+}
+
+.stop {
+  background-color: #ef0d36;
+  color: #ffffff;
+  padding: 3px;
+  border-style: none;
+  margin-right: 4px;
+}
+
+.reset {
+  background-color: #eaa800;
+  color: #ffffff;
+  padding: 3px;
+  border-style: none;
+}
+
+@media (min-width: 992px) {
+  .app-cont {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
